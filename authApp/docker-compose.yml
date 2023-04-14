@@ -1,0 +1,17 @@
+version: '3'
+services:
+  authapp: 
+    image: spiky14/authapp
+    ports:
+      - "8080:8080"
+    networks:
+      - my-network
+  subapp:
+    image: spiky14/subapp
+    ports:
+      - "8081:8081"
+    networks:
+      - my-network
+networks:
+  my-network:
+    driver: bridge

@@ -1,0 +1,2 @@
+{"level":"info","message":"Parameters 10 and 5 received for add","service":"calculator service"}
+{"level":"error","message":"Invalid operation name provided","service":"calculator service"}
